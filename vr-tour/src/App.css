@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.bg{
+  background-image: url('https://wallpaper.dog/large/5439708.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.bt{
+  background-color:rgb(0, 0, 225);
+  border:red;
+  color:white;
+}
+.bt:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  background-color:orangered;
+  color:rgb(0, 0, 0);
+  transition: box-shadow 0.2s,border-radius 1s;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.593);
+  border-radius: 30%;
+}
+/* .bbb{
+  background-image:url('https://img.freepik.com/free-photo/resort-exotic-island-blue-sea_1203-5312.jpg');
+  background-size:cover;
+  height: 100vh;
+} */
+ .hi{
+  background-color:#000000;
+  color: silver;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+ }
+.ii:hover{
+  height: 160px;
+  width: 210px;
+}
+.head{
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.vr{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.img{
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
